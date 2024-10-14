@@ -6,7 +6,6 @@ const navItems = [
   { name: 'home', icon: Home, label: 'Home' },
   { name: 'vote', icon: Vote, label: 'Vote' },
   { name: 'pk', icon: Vote, label: 'Pk' },
-  { name: 'community', icon: MessageCircle, label: 'Community' },
 ]
 
 export default function Navigation({ activeItem, setActiveItem }: { activeItem: string, setActiveItem: (item: string) => void }) {
